@@ -12,7 +12,7 @@ export const Header = styled.div `
     display: flex;
     justify-content: space-between;
     .btn_wrap{
-        width: 800px;
+        width: 770px;
         margin-top: 16px;
     }
     .btn_wrap > button{
