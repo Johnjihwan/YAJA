@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Header = styled.div `
+export const Page = styled.div `
     *{
         margin: 0;
         padding: 0;
@@ -26,4 +26,3 @@ export const Header = styled.div `
         border-radius: 10px;
     }
 `;
-
