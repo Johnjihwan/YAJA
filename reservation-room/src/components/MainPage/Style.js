@@ -8,8 +8,8 @@ export const Page = styled.div `
     }  
     width: 100%;
     height: 97px;
-    background-color: #8CAE7E;
     display: flex;
+    background-color: #8CAE7E;
     justify-content: space-between;
     .btn_wrap{
         width: 770px;
