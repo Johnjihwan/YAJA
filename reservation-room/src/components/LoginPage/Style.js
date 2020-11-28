@@ -4,8 +4,11 @@ export const Section = styled.div `
     text-align: center;
     
     .Login_wrap{
+        position: absolute;
         width: 700px;
         height: 840px;
+        margin-top: 250px;
+        margin-left: 15%;
     }
     .Login_container > a{
         color: black;
@@ -16,6 +19,7 @@ export const Section = styled.div `
         height: 85px;
         margin-top: 63px;
         font-size: 28px;
+        border: 1px solid #99999A;
     }
     .btn{
         margin-top: 63px;

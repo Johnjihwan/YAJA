@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as Login from "./Style";
 
-export default class LoginPage extends Component {
+export default class LoginTemp extends Component {
   render() {
     return (
       <Login.Section>

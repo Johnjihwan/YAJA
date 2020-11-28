@@ -3,7 +3,8 @@ import { Route, BrowserRouter as Router } from "react-router-dom";
 import MainPage from "../src/components/MainPage/MainPage";
 import BackPage from "../src/components/Background/Background";
 import Template from "../src/components/Templates/JoinLoginTemp";
-import Login from "../src/components/LoginPage/LoginPage";
+import Login from "./components/LoginPage/LoginTemp";
+import LoginPage from "./components/Login/Login";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Route exact path="/back" component={ BackPage } />
       <Route exact path="/temp" component={ Template } />
       <Route exact path="/login" component={ Login } />
+      <Route exact path="/loginpage" component={ LoginPage } />
     </Router>
   );
 };
