@@ -6,7 +6,8 @@ import Template from "../src/components/Templates/JoinLoginTemp";
 import Login from "./components/LoginPage/LoginTemp";
 import LoginPage from "./components/Login/Login";
 import LoginEx from "./components/Templates/LoginEx";
-
+import JoinTemp from "./components/Templates/JoinTemp";
+import SelectBox from "./components/Templates/SelectBox";
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,8 @@ const App = () => {
       <Route exact path="/login" component={ Login } />
       <Route exact path="/loginpage" component={ LoginPage } />
       <Route exact path="/loginex" component={ LoginEx } />
+      <Route exact path="/jointemp" component={ JoinTemp } />
+      <Route exact path="/selectbox" component={ SelectBox } />
     </Router>
   );
 };
