@@ -5,6 +5,7 @@ import BackPage from "../src/components/Background/Background";
 import Template from "../src/components/Templates/JoinLoginTemp";
 import Login from "./components/LoginPage/LoginTemp";
 import LoginPage from "./components/Login/Login";
+import LoginEx from "./components/Templates/LoginEx";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route exact path="/temp" component={ Template } />
       <Route exact path="/login" component={ Login } />
       <Route exact path="/loginpage" component={ LoginPage } />
+      <Route exact path="/loginex" component={ LoginEx } />
     </Router>
   );
 };
